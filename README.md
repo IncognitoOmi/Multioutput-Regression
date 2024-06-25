@@ -19,19 +19,6 @@ git clone <repository-url>
 cd project-directory
 pip install -r requirements.txt
 ```
-
-## Usage
-### Example Code
-```Libraries
-from sklearn.multioutput import MultiOutputRegressor
-from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_squared_error, r2_score
-import numpy as np
-import pandas as pd
-## Data Format
-- **Input Features**: Describe the format and structure of the input features used for training and prediction.
-- **Output/Target Variables**: Explain the format of the target variables for multioutput regression.
-
 ## Training
 Explain how to train the multioutput regression model using your implementation.
 
